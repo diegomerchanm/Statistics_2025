@@ -1,0 +1,25 @@
+# En la raíz de tu proyecto
+nano .gitignore
+```
+
+Y agrega estas líneas:
+```
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data files (si no quieres subir datasets grandes)
+*.csv
+*.xlsx
+*.json
